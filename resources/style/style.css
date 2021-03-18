@@ -14,6 +14,10 @@ hr{
     margin: 0rem 0rem;
 }
 
+.headerNavBar{
+    background-color: white;
+    padding-top: 0.5rem;
+}
 .headerNavBarLogo{
     height: 3rem;    
 }
@@ -54,7 +58,7 @@ a:hover {
 }
 
 .sectionHeader{
-    padding: 2rem;
+    padding: 3rem 2rem;
 }
 
 .sectionHeader span{
@@ -64,4 +68,8 @@ a:hover {
     color: white;
     border-top-right-radius: 50px;
     opacity: 0.8;
+}
+
+.sectionHeader p{
+    padding-top: 2rem;
 }
