@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root{
+    --headerNavBarMenuItems-Color: #3730A3;
+    --sectionHeading-color:#0000ff;
+}
+
+body{
+    padding: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr{
+    margin: 0rem 0rem;
+}
+
+.headerNavBarLogo{
+    height: 3rem;    
+}
+
+.headerNavBarMenu{    
+    padding: 0.5rem;
+    text-align: right;
+}
+
+.headerNavBarMenuItems{
+    padding: 0.5rem;
+    color: var(--headerNavBarMenuItems-Color);
+    text-decoration: none;
+}
+
+.headerNavBarMenu .link-active{
+    font-weight: bold;
+    background-color: var(--headerNavBarMenuItems-Color);
+    color: white;
+    border-radius: 50px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.blockquote{
+    padding: 2rem 2rem;
+}
+
+.about{
+    padding: 1.5rem 0rem;
+}
+
+
+.about .landingPagePic{
+    height: 15rem;
+}
+
+.sectionHeader{
+    padding: 2rem;
+}
+
+.sectionHeader span{
+    background-color: var(--sectionHeading-color);
+    padding: 0.5rem;
+    padding-right: 2rem;
+    color: white;
+    border-top-right-radius: 50px;
+    opacity: 0.8;
+}
